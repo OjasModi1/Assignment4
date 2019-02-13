@@ -1,0 +1,183 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+
+    </head>
+    <body>
+        <header>
+            <nav id="topnav">
+                <a href="#">hoem</a>
+                <a href="#">men</a>
+                <a href="#">women</a>
+                <a href="#">travel</a>
+               
+            </nav>
+            <input  id="company_logo" type="image" src="logo.png" height="100px" width="200">
+
+        </header>
+        
+        <div class="hero_image">
+                <img class="image_div" src="shopping_image3.png">            
+        </div>
+        <div class="navigator_side">
+                <ul>
+                        <li><a href="#">home</a></li>
+                        <li><a href="#">men</a></li>
+                        <li><a href="#">women</a></li>
+                        <li><a href="#">back</a></li>
+                        
+                      </ul>
+        </div>
+        <div class='flex_div'>
+                <div class='rows'>
+                  <div class='columns'>
+                    <div class='item-column'>
+                      <img src="shirtimage_1.jpg" width="500px" height="600px" >
+                    </div>
+                  </div>
+                  <div class='column'>
+                    <div class='item-column'>
+                            <img src="shirtimage_2.jpg" width="500px" height="600px" >
+                    </div>
+                  </div>
+                  <div class='column'>
+                    <div class='item-column'>
+                            <img src="shirtimage_3.jpg" width="500px" height="600px" >
+                    </div>
+                  </div>
+                  <div class='column'>
+                        <div class='item-column'>
+                                <img src="shirtimage_4.jpg" width="500px" height="600px" >
+                        </div>
+                      </div>
+                      <div class='column'>
+                            <div class='item-column'>
+                              <img src="shirtimage_1.jpg" width="500px" height="600px" >
+                            </div>
+                          </div>
+                          <div class='column'>
+                            <div class='item-column'>
+                                    <img src="shirtimage_2.jpg" width="500px" height="600px" >
+                                   
+                            </div>
+                          </div>
+                          <div class='column'>
+                            <div class='item-column'>
+                                    <img src="shirtimage_3.jpg" width="500px" height="600px" >
+                                  
+                            </div>
+                          </div>
+                          <div class='column'>
+                                <div class='item-column'>
+                                        <img src="shirtimage_4.jpg" width="500px" height="600px" >
+                                        
+                                </div>
+                              </div>
+                              <div class='column'>
+                                    <div class='item-column'>
+                                            <img src="shirtimage_4.jpg" width="500px" height="600px" >
+                                            
+                                    </div>
+                                  </div>
+                                  <div class='column'>
+                                        <div class='item-column'>
+                                                <img src="shirtimage_2.jpg" width="500px" height="600px" >
+                                               
+                                        </div>
+                                      </div>    
+                </div>
+              </div>
+              
+        
+        
+        <footer>
+            <p>footer</p>
+        </footer>
+    </body>
+</html>
+
+<style>
+   
+    header{
+        position:fixed;
+        top:0px;
+        height:100px;
+        width: 100%;
+        background-color:blueviolet; 
+    }
+   
+    .hero_image{
+        width:100%;
+        background-color:white;
+        height:auto;
+        margin-top: 100px;
+    }
+  
+    footer{
+        width:100%;
+        background-color: blueviolet;
+        bottom: 0;
+        text-align: center;
+        height:40px;
+    }
+    
+    .hero_image{
+        display: block;
+        width:100%;
+        height: 700px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #topnav a{
+        color: white;
+        display: inline-block;
+        padding: 40px 30px 25px;
+        text-decoration: none;
+    }
+   
+    #logo{
+        float: right;
+        position: fixed;
+        top:5px;
+        right:0;
+    }
+   
+    .flex_div {
+  margin: 15px;
+  background-color: red;
+  width:80%; 
+  float: left;
+}
+
+.rows {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+.columns {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.item-column {
+  background-color: whitesmoke;
+  height: auto;
+}
+
+
+.navigator_side{
+    width:20%;
+    height: 600px;
+    float: right;
+    background-color: violet;
+    top:800px;
+    right:0;
+}
+
+
+</style>
